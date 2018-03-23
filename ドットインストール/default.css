@@ -1,12 +1,4 @@
-/*
-透明
-*/
-
-body { background: skyblue; }
-
-img {
-  border: 7px solid blue;
-  opacity: 0.3;
+/*li:last-child*/
+p:nth-of-type(3){
+	background:violet;
 }
-
-a[href$^=".co.jp"]{color:orange;}
