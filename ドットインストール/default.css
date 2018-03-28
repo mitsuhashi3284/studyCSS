@@ -1,12 +1,18 @@
 /*
-擬似クラス
+box-shadow
+text-shadow
 */
 
-/*li:not(.target)*/
-/*li:empty*/
-/*input[type="text"]:enabled*/
-/*input[type="text"]:disabled*/
-input[type="checkbox"]:checked + label
-{
-  background: violet;
+body { background: #eee; }
+
+div {
+  width: 200px;
+  height: 100px;
+  background: #fff;
+  box-shadow: 10px 20px 4px 10px  rgba(0,0,0,.4) inset,
+  10px 20px 4px 10px skyblue;
+}
+
+h1 {
+  text-shadow: 2px 2px 0   rgba(0,0,0,.4);
 }
