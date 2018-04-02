@@ -1,18 +1,32 @@
 /*
-box-shadow
-text-shadow
+width/height
+- box-sizing
 */
 
-body { background: #eee; }
-
-div {
-  width: 200px;
-  height: 100px;
-  background: #fff;
-  box-shadow: 10px 20px 4px 10px  rgba(0,0,0,.4) inset,
-  10px 20px 4px 10px skyblue;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  text-shadow: 2px 2px 0   rgba(0,0,0,.4);
+.container {
+  width: 320px;
+  height: 100px;
+  background: skyblue;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  /*width: 80px;
+  height: 70px;*/
+  background: #eee;
+  float: left;
+
+  padding: 10px;
+  border-bottom: 30px solid #ccc;
+}
+
+.box + .box {
+  margin-left: 10px;
 }
