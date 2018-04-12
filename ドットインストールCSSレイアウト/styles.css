@@ -1,7 +1,27 @@
-/*
-User Agent Stylesheet
+body{
+	background: slategray;
+}
 
-- reset.css
-- normalize.css
+header{
+	background: tomato;
+}
 
-*/
+main{
+	background: skyblue;
+}
+
+footer{
+	background: slategray;
+}
+
+#eyecatch{
+  background: url('eyecatch.jpg') no-repeat;
+	background-size: cover;
+	background-position: 50%,20%;
+	height: 100px;
+}
+
+.container{
+	width:500px;
+	margin: 0 auto;
+}
