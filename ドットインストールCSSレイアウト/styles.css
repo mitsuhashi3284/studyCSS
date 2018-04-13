@@ -18,13 +18,21 @@ footer{
 #left{
   background: limegreen;
 	float:left;
-	width:200px;
+	width:100px;
+	margin-right: 10px;
+}
+
+#center{
+  background: seagreen;
+	float:left;
+	width:280px;
+	margin-right: 10px;
 }
 
 #right{
   background: lightgreen;
-	float:left;
-	width:300px;
+	float:right;
+	width:100px;
 }
 
 .container{
